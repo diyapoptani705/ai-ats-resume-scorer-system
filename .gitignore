@@ -10,3 +10,13 @@ frontend/.streamlit/
 dist/
 
 venv/
+
+# Datasets
+*.csv
+
+# Logs
+*.log
+
+# ML models
+*.safetensors
+*.pkl
