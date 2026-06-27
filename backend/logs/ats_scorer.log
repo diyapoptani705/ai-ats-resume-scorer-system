@@ -293,3 +293,19 @@
 2026-06-25 14:54:38,329 - INFO - Groq parsed experience count: 0
 2026-06-25 14:54:41,818 - INFO - Saved analysis for user 0fcc5020-d4d7-4562-b516-c59047cc6344: 9
 2026-06-25 14:56:09,105 - INFO - shutting down the api!!
+2026-06-27 22:24:29,256 - INFO - Starting ATS Resume Analyzer API...
+2026-06-27 22:24:29,263 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-06-27 22:24:38,718 - WARNING - en_core_web_md not found — falling back to en_core_web_sm
+2026-06-27 22:24:39,580 - INFO - Loaded en_core_web_sm (fallback)
+2026-06-27 22:24:39,580 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-06-27 22:25:33,844 - INFO - Loaded all-MiniLM-L6-v2
+2026-06-27 22:25:33,845 - INFO - All models loaded. API is ready to serve requests.
+2026-06-27 22:26:43,555 - INFO - parse_Resume_file: parsing file :Diya Poptani.pdf
+2026-06-27 22:26:43,753 - INFO - parse_resume_file: Extracted 1470 chars from Diya Poptani.pdf
+2026-06-27 22:26:43,753 - INFO - Parsed 'Diya Poptani.pdf': 1470 chars extracted
+2026-06-27 22:26:46,214 - WARNING - Groq resume parse: first attempt returned invalid JSON, retrying...
+2026-06-27 22:26:47,312 - INFO - Groq parsed summary: ''
+2026-06-27 22:26:47,312 - INFO - Groq parsed skills count: 14
+2026-06-27 22:26:47,312 - INFO - Groq parsed experience count: 0
+2026-06-27 22:26:51,047 - INFO - Saved analysis for user 0fcc5020-d4d7-4562-b516-c59047cc6344: 10
+2026-06-27 22:27:50,109 - INFO - shutting down the api!!
